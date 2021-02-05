@@ -11,6 +11,8 @@ USTH ICT 2021 Distributed Systems
 Group Info
 =======================
 
-* Name 1 (ID1)
-* Name 2 (ID2)
-
+* Nguyễn Phương Thảo BI9-212
+* Đoàn Tuyết Mai BI9-162
+* Phùng Kim Sơn BI9-202
+* Phạm Minh Long BI9-146
+* Trịnh Thảo Phương BI9-191
