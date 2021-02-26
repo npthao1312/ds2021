@@ -11,7 +11,7 @@ void write_file(int sockfd){
 	char buffer[SIZE];
 	
 	FILE *fp;
-	fp = fopen("sample.txt","w");
+	fp = fopen("received_sample.txt","w");
 	while (1){
 		n = recv(sockfd, buffer, SIZE, 0);
 		if (n <= 0){
