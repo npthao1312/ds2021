@@ -49,7 +49,7 @@ int main(int argc, char* argv[]) {
     connect(serv, (struct sockaddr *)&ad, ad_length);
 
     while (1) {
-        // after connected, client will generate a file 		contain message
+        // after connected, client will generate a file contain message
         printf("Message to write to the file: ");
         gets(s);
         write_file(s);
