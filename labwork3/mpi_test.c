@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <mpi.h>
 
-main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int ierr, num_procs, my_id;
 
@@ -16,4 +16,5 @@ main(int argc, char **argv)
 	 my_id, num_procs);
 
 	ierr = MPI_Finalize();
+	return 0;
 }
