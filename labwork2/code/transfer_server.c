@@ -26,7 +26,7 @@ transf_1_svc(file *argp, struct svc_req *rqstp)
 		printf("Receiving new file %s.\n", argp->name);
 
 		strcpy(opened_file, argp->name);
-		fp = fopen(argp->name, "ab+");
+		fp = fopen("received_sample", "ab+");
 	}
 	if (strcmp(opened_file, argp->name) == 0) {
 		fflush(stdout);
