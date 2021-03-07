@@ -29,7 +29,6 @@ transfer_1(char *host)
 #endif	/* DEBUG */
 
 	FILE *fp;
-	long long int total = 0;
 	char filetotransf[] = "sample";
 
 	write_file("Hello guys");
@@ -46,7 +45,6 @@ transfer_1(char *host)
 
 	while(1) {
 		transf_1_arg.nbytes = fread(transf_1_arg.data, 1, SIZE, fp);
-		total += transf_1_arg.nbytes;
 
 		result_1 = transf_1(&transf_1_arg, clnt);
 		if (result_1 == (int *) NULL) {
