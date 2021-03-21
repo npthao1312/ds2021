@@ -16,9 +16,8 @@ for line in f.readlines():
 	combined_occurrence = reducer(occurrence)
 	combined_occurrences.update(combined_occurrence)
 
-print(combined_occurrences)
 max_len = -1
-for key, value in combined_occurrence.items():
+for key, value in combined_occurrences.items():
 	if value > max_len:
 		max_len = value
 		longest_path = key
